@@ -36,11 +36,11 @@ export default function Contact() {
           <div className="flex flex-col gap-2 mt-4 text-white/80">
             <div className="flex items-center gap-2">
               <Mail className="w-4 h-4" />
-              <a href="mailto:contact@yourdomain.com">contact@yourdomain.com</a>
+              <a href="mailto:contact@yourdomain.com">shaikhmuhammadusmanofficial@gmail.com</a>
             </div>
             <div className="flex items-center gap-2">
               <MapPin className="w-4 h-4" />
-              <span>Your Location, City, Pakistan</span>
+              <span>Baldia Town, Karachi, Pakistan</span>
             </div>
           </div>
         </motion.div>

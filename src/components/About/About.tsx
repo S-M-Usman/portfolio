@@ -8,15 +8,15 @@ import { ChevronDown, ChevronUp } from "lucide-react"
 
 const education = [
   {
-    year: "2018 - 2022",
+    year: "2024 - Present",
     degree: "Bachelor of Science in Computer Science",
-    school: "University of Technology",
+    school: "IQRA University , North Campus",
     description: "Focused on web development, algorithms, and data structures.",
   },
   {
-    year: "2016 - 2018",
+    year: "2018 - 2022",
     degree: "Associate Degree in Information Technology",
-    school: "Community College of Innovation",
+    school: "Apex Educators",
     description: "Gained foundational knowledge in programming and IT systems.",
   },
   // Add more education items as needed
@@ -24,22 +24,22 @@ const education = [
 
 const certifications = [
   {
-    name: "Full Stack Web Development",
-    issuer: "Udacity",
-    date: "2023",
+    name: "Advance Diploma in IT",
+    issuer: "Trade Testing Board",
+    date: "2024",
     credential: "ND0044",
   },
   {
     name: "React Developer",
     issuer: "freeCodeCamp",
-    date: "2022",
+    date: "2024",
     credential: "FCC1234",
   },
   {
-    name: "AWS Certified Developer - Associate",
-    issuer: "Amazon Web Services",
-    date: "2021",
-    credential: "AWS-DEV-12345",
+    name: "Resonsive Web Design",
+    issuer: "Free Code camp",
+    date: "2024",
+    credential: "FCC12345",
   },
   // Add more certifications as needed
 ]
