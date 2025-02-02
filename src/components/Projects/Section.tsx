@@ -27,7 +27,7 @@ const projects = [
 ]
 
 export default function Projects() {
-  const [error, setError] = useState<string | null>(null)
+  const [error] = useState<string | null>(null)
 
   return (
     <section id="projects" className="py-20 relative overflow-hidden">
