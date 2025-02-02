@@ -6,6 +6,7 @@ import Skills from "@/components/About/Skills";
 import Contact from "@/components/Contact/Section";
 import Hero from "@/components/Hero";
 import Projects from "@/components/Projects/Section";
+import { Loader } from "@/components/Loader/Loader";
 
 export default function Home() {
   const [isLoading, setIsLoading] = useState(true);
@@ -27,7 +28,9 @@ export default function Home() {
   if (isLoading) {
     return (
       <div className="fixed inset-0 flex items-center justify-center bg-black">
-        <div className="animate-spin h-12 w-12 border-4 border-white border-t-transparent rounded-full">SHAIK.MUHAMMAD.USMAN</div>
+      
+          <Loader  />
+      
       </div>
     );
   }

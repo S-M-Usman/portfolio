@@ -17,6 +17,7 @@ module.exports = {
       animation: {
         spotlight: "spotlight 2s ease .75s 1 forwards",
         shimmer: "shimmer 2s linear infinite",
+        
       },
       keyframes: {
         shimmer: {

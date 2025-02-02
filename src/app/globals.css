@@ -70,3 +70,6 @@ body {
     @apply bg-background text-foreground;
   }
 }
+.animate-spin {
+  animation: spin 3s linear infinite;
+}
